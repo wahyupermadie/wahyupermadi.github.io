@@ -6,7 +6,11 @@
     "firstname": "Wahyu",
     "lastname": "Permadi",
     "brief": "Android Developer and Web Developer",
+<<<<<<< HEAD
     "image": "../wahyu.jpg",
+=======
+    "image": "./wahyu2.jpg",
+>>>>>>> 6859ef868bfb46b8b14198a2b83710ce974df7d0
     "details": [
       {
         "title": "Location",
