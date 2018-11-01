@@ -1,0 +1,17 @@
+<div class="content">
+    <h1 class="headline">
+      <span>
+        <span class="icon">
+          <i class="fa fa-rocket"></i>
+        </span>{{$t("message.skills")}}
+      </span>
+    </h1>
+    <dl v-for="skill in skills.items" class="cvitem">
+      <dt>
+        <i class="icon fa" v-bind:class="skill.icon"></i> {{skill.name}}
+      </dt>
+      <dd class="has-text-justified">
+        {{skill.description}}
+      </dd>
+    </dl>
+</div>
