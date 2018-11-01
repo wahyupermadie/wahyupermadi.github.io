@@ -1,0 +1,32 @@
+
+<div class="content">
+  <h1 class="headline">
+    <span>
+      <span class="icon">
+        <i class="fa fa-graduation-cap"></i>
+      </span>{{$t("message.education")}}
+    </span>
+  </h1>
+
+  <div class="cvitem" v-for="(school, index) in education.items" :key="index">
+    <article class="media">
+      <div class="media-left">
+        <TimelineView :start="school.start" :end="school.end"></TimelineView>
+      </div>
+      <div class="media-content">
+        <div class="content">
+
+          <p class="title is-4 is-capitalized">
+            {{school.name}}
+            <a class="icon fa fa-link" :href="school.website"></a>
+          </p>
+          <p class="subtitle is-capitalized">
+            <span class="is-capitalized has-text-weight-light">{{school.degree}}</span>
+            <span>{{school.major}}</span>
+          </p>
+          <p class="has-text-justified">{{school.description}}</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>

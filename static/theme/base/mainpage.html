@@ -1,0 +1,27 @@
+<div>
+  <section class="section">
+    <div class="content">
+      <div class="columns is-8 is-centered">
+        <div class="column is-2 column-shadow">
+          <ProfileView/>
+        </div>
+        <div class="column is-6 card-boxing column-shadow">
+          <BiographyComponent v-if="displaySection('biography')" class="cv-section"/>
+          <EducationComponent v-if="displaySection('education')" class="cv-section"/>
+          <EmploymentComponent v-if="displaySection('employment')" class="cv-section"/>
+          <PortfolioComponent v-if="displaySection('portfolio')" class="cv-section"/>
+            <HonorsComponent v-if="displaySection('honors')" class="cv-section"/>
+            <div class="columns is-variable is-8">
+              <div class="column">
+                <SkillsComponent v-if="displaySection('skills')" class="cv-section"/>
+              </div>
+              <div class="column">
+              <LanguagesComponent v-if="displaySection('languages')" class="cv-section"/>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <FooterComponent/>
+</div>

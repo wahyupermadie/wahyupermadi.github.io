@@ -1,0 +1,17 @@
+<div class="content">
+  <h1 class="headline">
+    <span>
+      <span class="icon">
+        <i class="fa fa-globe"></i>
+      </span>{{$t("message.languages")}}
+    </span>
+  </h1>
+  <dl v-for="language in languages.items">
+    <dt>
+      <i class="icon">{{getFlag(language.icon)}}</i> {{language.name}}
+    </dt>
+    <dd>
+      {{language.description}}
+    </dd>
+  </dl>
+</div>

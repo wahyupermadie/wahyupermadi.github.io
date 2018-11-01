@@ -1,0 +1,23 @@
+<div class="content">
+    <h1 class="headline">
+      <span>
+        <span class="icon">
+          <i class="fa fa-trophy"></i>
+        </span>Ceritifcation
+      </span>
+    </h1>
+  <div class="cvitem" v-for="honor in honors.items">
+    <article class="media">
+      <div class="media-left">
+        <TimelineComponent :start="honor.start" :end="honor.end"></TimelineComponent>
+      </div>
+      <div class="media-content">
+        <div class="content">
+          <p class="title is-4">{{honor.name}}</p>
+          <p class="subtitle">{{honor.auspices}}</p>
+          <p class="has-text-justified">{{honor.description}}</p>
+        </div>
+      </div>
+    </article>
+  </div>
+</div>

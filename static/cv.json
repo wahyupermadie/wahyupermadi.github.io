@@ -1,0 +1,199 @@
+{
+  "theme": "base",
+  "pageTitle": "I Putu Wahyu Permadi - CV",
+  "showMenu": true,
+  "profile": {
+    "firstname": "Wahyu",
+    "lastname": "Permadi",
+    "brief": "Android Developer and Web Developer",
+    "image": "../static/wahyu.jpg",
+    "details": [
+      {
+        "title": "Location",
+        "value": "Denpasar, Bali, Indonesia",
+        "icon": "fa-globe"
+      },
+      {
+        "title": "Hometown",
+        "value": "Denpasar",
+        "icon": "fa-map-signs"
+      }
+    ],
+    "external": [
+      {
+        "title": "LinkedIn",
+        "value": "http://linkedin.com/in/iputuwahyupermadi",
+        "icon": "fa-linkedin"
+      },
+      {
+        "title": "Github",
+        "value": "http://github.com/wahyupermadie",
+        "icon": "fa-github"
+      },
+      {
+        "title": "Twitter",
+        "value": "https://twitter.com/Wahyu_Permadie",
+        "icon": "fa-twitter"
+      }
+    ]
+  },
+  "biography": {
+    "display": true,
+    "text": "I am someone who always tries new things, my education background is Information and Technology. I am very happy to learn technology related to the development of mobile and web applications. now I'm exploring how to build a mobile application using Kotlin. Usually in building a mobile application I use java, and for website development, I use laravel and vuejs. in my spare time, sometimes I learn about firebase, socketIo, pusher and many more. although sometimes just to just know it ",
+    "headline": "About Me"
+  },
+  "honors": {
+    "display": true,
+    "items": [
+      {
+        "name": "Mobile Sites Certification",
+        "start": "2018-03-24",
+        "end": "2019-03-24",
+        "auspices": "Google",
+        "description": "Received when I'm join Google Mobile Sites Certification"
+      },
+      {
+        "name": "Indonesia Android Kejar Intermediet Level",
+        "start": "2016-04-01",
+        "auspices": "Indonesia Android Kejar",
+        "description": "Received when I'm join Indonesia Android Kejar Intermediet Level Certification"
+      }
+    ]
+  },
+  "skills": {
+    "display": true,
+    "displayProgress": true,
+    "items": [
+    {
+      "name": "Javascript",
+      "description": "Self-taught. Constructed several applications, especially with Vue.",
+      "value": 85,
+      "icon": "fa-bug"
+    },
+    {
+      "name": "Java",
+      "description": "Developed various Android apps.",
+      "value": 80,
+      "icon": "fa-coffee"
+    },
+    {
+      "name": "Kotlin",
+      "description": "Self-taught. Developed Android apps.",
+      "value": 70,
+      "icon": "fa-coffee"
+    },
+    {
+      "name": "PHP",
+      "description": "Self-taught. Developed various Web apps, especially Laravel and CI",
+      "value": 90,
+      "icon": "fa-firefox"
+    },
+    {
+      "name": "Database",
+      "description": "Self-taught. Developed various database structure, especially MySQL, sometimes using Firebase",
+      "value": 90,
+      "icon": "fa-database"
+    },
+    {
+      "name": "Python",
+      "description": "Self-taught. Build simple telegram chat bot apps",
+      "value": 90,
+      "icon": "fa-coffee"
+    }
+  ]},
+  "languages": {
+    "display": true,
+    "items": [
+    {
+      "name": "English",
+      "description": "self-taught",
+      "value": 70,
+      "icon": "US"
+    },
+    {
+      "name": "Indonesia",
+      "description": "Native Speaker",
+      "value": 85,
+      "icon": "ID"
+    }
+  ]},
+  "portfolio": {
+    "display": true,
+    "items": [
+    {
+      "name": "Futnet (Futsal Network)",
+      "start": "2016-09-10",
+      "tagline": "Online Booking Futsal and Scheduling build with Laravel(web) and Java(android)",
+      "description": "Online Booking Futsal and Scheduling build with Laravel(web) and Java(android)",
+      "website": "futnet.id"
+    },
+    {
+      "name": "PDAM SmartCare",
+      "start": "2018-10-01",
+      "tagline": "PDAM Customer Care",
+      "description": "Customer Care Application of PDAM (Perusahan Daerah Air Minum) with 2 application mobile and web",
+      "website": "http://admin-pdam.profdp.com"
+    },
+    {
+      "name": "GIS Of Medical Center",
+      "start": "2018-06-01",
+      "tagline": "GIS of Medical Center",
+      "description": "Location mapping of health facilities in Bali using VueJs (PWA) ",
+      "website": "https://emr.profdp.com/#/"
+    }
+  ]},
+  "employment": {
+    "display": true,
+    "items": [
+    {
+      "name": "Information and Technology of Udayana University",
+      "start": "2018-04-04",
+      "location": "Denpasar, Bali, Indonesia",
+      "position": "Lab Assistant",
+      "description": "became a practicum assistant in mobile programming practice, web programming, databases and so on",
+      "website": "http://www.it.unud.ac.id"
+    },
+    {
+      "name": "Santabodhi Innovation",
+      "start": "2017-01-31",
+      "end": "2018-09-04",
+      "location": "Mengwi, Bali, Indonesia",
+      "position": "Web Developer",
+      "description": "Create web application for mapping medical center, PDAM Admin, etc",
+      "website": "http://profdp.com"
+    },
+    {
+      "name": "Futnet.id",
+      "start": "2016-01-31",
+      "location": "Tohpati, Bali, Indonesia",
+      "position": "Web Developer",
+      "description": "Create web application for futsal admin, manage futsal and scheduling",
+      "website": "http://futnet.id"
+    }
+  ]},
+  "education": {
+    "display": true,
+    "items": [
+      {
+        "name": "Udayana University",
+        "end": "2015",
+        "start": "2019",
+        "location": "Denpasar, Bali, Indonesia",
+        "degree": "BA",
+        "major": "Information and Technology",
+        "website": "https://it.unud.ac.id/",
+        "description": "I am still finishing my bachelor degree in Information and Technology of Udayana University Bali"
+      },
+      {
+        "name": "SMA Negeri 1 Singaraja",
+        "end": "2012",
+        "start": "2015",
+        "location": "Singaraja, Bali, Indonesia",
+        "degree": "-",
+        "major": "Senior High School",
+        "website": "http://smansasingaraja.sch.id/",
+        "description": "I took a science concentration"
+      }
+    ]
+  }
+}

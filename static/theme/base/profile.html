@@ -1,0 +1,29 @@
+<div class="profile">
+  <figure class="image profile-image is-128x128" v-if="profile.image">
+    <img :src="profile.image" alt="profile">
+  </figure>
+  <p class="has-text-light title"><span class="has-text-weight-light">{{profile.firstname}}</span> <span>{{profile.lastname}}</span></p>
+  <p class="subtitle has-text-light is-size-7">{{profile.brief}}</p>
+
+  <div v-for="detail in profile.details" :key="detail.value" class="detail-item">
+      <p class="header-text has-text-light has-text-weight-light"><i class="icon fa" :class="[detail.icon]"></i>{{detail.title}}</p>
+      <p class="subheader-text has-text-light">
+         {{detail.value}}
+      </p>
+  </div>
+  <div class="external">
+    <span>
+      <span class="icon">
+        <i class="fa fa-external-link-square"></i>
+      </span>{{$t("message.external")}}
+    </span>
+  </div>
+  <div v-for="link in profile.external" :key="link.value" class="detail-item">
+    <a class="has-text-light" :href="link.value">
+      <p class="icon">
+        <i class="fa" :class="[link.icon]"></i>
+      </p>
+      {{link.title}}
+    </a>
+  </div>
+</div>
